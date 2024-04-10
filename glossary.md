@@ -36,6 +36,10 @@
 
 **Diffusion Model:** A type of generative model that transforms random noise into structured data, typically images, through a gradual process of learning and refinement.
 
+**Dropout:** A regularization method where randomly selected neurons are ignored during training, preventing them from co-adapting too much and reducing the risk of overfitting.
+
+**Embedding Layer:** A layer in a neural network that transforms large sparse vectors into a lower-dimensional space where similar values are close to each other, often used for processing text or categorical data.
+
 **Energy-Based Model (EBM):** A framework in machine learning where the system assigns a scalar energy value to each state or configuration of the variables being modeled. The goal is to learn a function that gives lower energy to correct more desirable configurations and higher energy to incorrect or undesirable ones, thereby framing the problem of inference and learning as one of energy minimization.
 
 **Feedforward Neural Networks:** The simplest type of artificial neural network, wherein connections between the nodes do not form a cycle. This model moves information forward from input to output.
@@ -56,7 +60,11 @@
 
 **Model:** A simplified representation of a system or phenomenon, often used in scientific and mathematical contexts to predict behavior or outcomes.
 
+**Model Distillation:** A process of transferring knowledge from a large, complex model to a smaller, more efficient model, preserving performance while reducing computational demands.
+
 **Model garden:** A collection of pre-built models and algorithms available for adaptation in various tasks, serving as a resource for rapid deployment and experimentation.
+
+**Model IO:** The formats and methods for inputting data into and outputting data from an AI model, including data preprocessing and normalization.
 
 **Multimodal**: Pertaining to or involving multiple modes of communication or sensory input.
 
@@ -74,11 +82,15 @@
 
 **Pre-trained model:** A model that has been previously trained on a large dataset to solve a problem similar to the one it will be applied to. These models can be fine-tuned with additional data for specific tasks, reducing the need for extensive computational resources and training time.
 
+**Quantization:** The process of reducing the precision of the weights and activations of a model to lower bit widths, which decreases model size and speeds up inference, with minimal impact on accuracy.
+
 **Recurrent Neural Networks (RNNs):** A type of neural network where connections between nodes form a directed graph along a temporal sequence, allowing it to exhibit temporal dynamic behavior.
 
 **Self-attention:** A specific form of attention mechanism that enables each part of the input data to interact with and assess the importance of other parts of the same data, thereby improving the model's ability to understand and represent complex relationships.
 
 **Small-Language Model:** A streamlined model trained to handle language tasks efficiently with fewer resources. While less comprehensive than larger models, it remains effective for basic natural language processing applications.
+
+**Temperature:** A parameter that controls the randomness of model predictions, influencing the diversity and predictability of outputs in generative models.
 
 **Vision Transformers (ViT)**: A type of neural network that applies the transformer architecture to image classification tasks.
 
@@ -88,6 +100,12 @@
 
 **Backpropagation:** A method used in training neural networks, where the error is calculated and distributed back through the network to adjust the weights.
 
+**Batch:** A subset of the training dataset that is used in one iteration of model training, allowing for efficient and parallelizable processing.
+
+**Bootstrapping Data:** A technique for improving model performance by iteratively refining the training dataset, often using the model's own predictions to generate new training examples.
+
+**Checkpoint:** A saved state of a model during training, allowing recovery or resumption of training from that point, and facilitating model evaluation at various stages of training.
+
 **Classification:** A type of supervised learning where the goal is to predict the category or class of an object or event.
 
 **Corpus:** a large and structured set of texts or dataset used for training and evaluating natural language processing models, providing the essential data for learning patterns, structures, and nuances of language.
@@ -96,7 +114,11 @@
 
 **Fine Tuning**: The process of adjusting a pre-trained model to improve its performance on a specific task.
 
+**Epoch:** One complete pass through the entire training dataset by a machine learning algorithm, used as a measure of the extent of training.
+
 **Gradient descent**: A cornerstone optimization technique in artificial intelligence (AI), particularly in training machine learning and deep learning models. It iteratively updates model parameters to minimize a loss function, reflecting the model's error on training data, thereby improving the model's accuracy.
+
+**Learning Rate:** A hyperparameter that determines the step size at each iteration while moving toward a minimum of the loss function, influencing how quickly a model learns.
 
 **Long Short-Term Memory (LSTM):** A special kind of RNN, capable of learning long-term dependencies, designed to avoid the long-term dependency problem.
 
@@ -104,11 +126,13 @@
 
 **Many Shot:** A learning strategy where a model is trained with a large number of examples to improve its accuracy and generalization capabilities.
 
+**Momentum:** A technique that helps accelerate the gradient descent algorithm by navigating along the relevant direction and dampening oscillations, improving convergence speed.
+
 **Overfitting:** A modeling error in machine learning where a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data.
 
 **Quantum Machine Learning:** Research area that combines quantum computing with machine learning algorithms to process information in fundamentally new ways, aiming to solve complex computational problems more efficiently than classical computers.
 
-**Regularization**: In machine learning, regularization is a technique used to prevent overfitting by adding a penalty term to the model’s loss function. This penalty discourages the model from excessively relying on complex patterns in the training data, promoting more generalizable and less prone-to-overfitting models.
+**Regularization:** Techniques used to prevent overfitting by imposing constraints on the quantity and type of information your model can store.
 
 **RLHF (Reinforcement Learning from Human Feedback):** A method to train an AI model by learning from feedback given by humans on model outputs.
 
@@ -133,6 +157,8 @@
 **Underfitting:** Occurs when a model is too simple, both in terms of the algorithm used and the features considered, and fails to capture the underlying trend of the data.
 
 **Unsupervised Learning:** A type of machine learning that deals with input data without labeled responses, aiming to find hidden patterns or intrinsic structures in input data.
+
+**Validation Set:** A subset of the dataset, separate from the training set, used to evaluate the model's performance and tune hyperparameters without using the test set.
 
 **Zero Shot / In Context Learning:** A method where a model makes predictions or understands tasks it has never explicitly been trained on, using general knowledge or context.
 
@@ -166,11 +192,15 @@
 
 **Keras:** An open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.
 
+**LAION:** A dataset and community project aimed at enabling large-scale training of AI models, particularly in the field of generative models, by providing accessible and diverse data.
+
 **LangChain:** A development framework for Python and JavaScript that simplifies building applications with large language models by providing tools and APIs for tasks like chatbots, context-aware responses, and document summarization.
 
 ***Let's Verify Step by Step***: A paper that shows teaching language models to use detailed step feedback is better for solving complex problems than just using final results.
 
 **LORA**: Low Rank Adaptation. A technique to adaptively adjust the learning rates of parameters in optimization algorithms, improving convergence.
+
+**ONNX (Open Neural Network Exchange):** An open standard for representing machine learning models, allowing models to be transferred between different frameworks and tools.
 
 **OpenAI GPT (Generative Pre-trained Transformer):** A series of AI models developed by OpenAI that specialize in understanding and generating natural language texts.
 
@@ -183,6 +213,8 @@
 ## Misc
 
 **Alignment:** Alignment in AI refers to ensuring AI systems' actions and outputs align with human values and intentions to promote welfare and avoid harm.
+
+**AI Engineer:** A professional who specializes in designing, building, and implementing AI models and systems, often involving tasks such as data preprocessing, model training, and deployment.
 
 **Chain of Thought (CoT)**: A technique where AI generates a sequence of reasoning steps to transition logically from one concept to a conclusion, enhancing transparency and understanding.
 
@@ -224,11 +256,15 @@
 
 **Tokenizer**: A tool that splits text into tokens, often used in text processing.
 
+**Tree of Thought:** An AI research concept aiming to improve the understanding and generation capabilities of models through structured reasoning and hierarchical information processing.
+
 **Variational auto encoder**: A type of autoencoder that generates new data points by learning the distribution of input data.
 
 **Virtual Assistants:** Artificial intelligence systems that can perform tasks or services for an individual based on commands or questions.
 
 ## Related Computer Science & Math
+
+**Classical Computing:** The traditional model of computing based on binary operations, distinct from quantum computing, forming the foundation for most current AI research and applications.
 
 **Dot product:** A mathematical operation multiplying corresponding entries of two vectors and summing those products, crucial for measuring similarity or direction differences.
 
@@ -240,52 +276,8 @@
 
 **Physics-Based Computing:** Utilizes physical phenomena to perform computations, often focusing on leveraging the natural properties of physical systems for processing information.
 
+**Softmax:** A function that converts a vector of values into a vector of probabilities, often used in the output layer of neural networks to classify inputs into different categories.
+
 **Thermodynamic Computing:** A theoretical computing paradigm that explores the use of thermodynamic processes for computation, aiming to harness heat and energy flows for information processing.
 
 **Vector:** An object with magnitude and direction, extensively used to represent data points, features, or physical quantities in models and algorithms.
-
-## Words To Add
-
-**Temperature:** A parameter that controls the randomness of model predictions, influencing the diversity and predictability of outputs in generative models.
-
-**Other LLM Inference Settings:** Configuration options used during the inference phase of Large Language Models to tailor the generation process, such as output length and sampling strategies.
-
-**Model IO:** The formats and methods for inputting data into and outputting data from an AI model, including data preprocessing and normalization.
-
-**Softmax:** A function that converts a vector of values into a vector of probabilities, often used in the output layer of neural networks to classify inputs into different categories.
-
-**ONNX (Open Neural Network Exchange):** An open standard for representing machine learning models, allowing models to be transferred between different frameworks and tools.
-
-**LAION:** A dataset and community project aimed at enabling large-scale training of AI models, particularly in the field of generative models, by providing accessible and diverse data.
-
-**Classical Computing:** The traditional model of computing based on binary operations, distinct from quantum computing, forming the foundation for most current AI research and applications.
-
-**VAE (Variational Autoencoder):** A type of autoencoder used for generative tasks, leveraging probabilistic graphical models to encode inputs into a latent space and decode from that space to reconstruct inputs or generate new data.
-
-**Tree of Thought:** An AI research concept aiming to improve the understanding and generation capabilities of models through structured reasoning and hierarchical information processing.
-
-**Bootstrapping Data:** A technique for improving model performance by iteratively refining the training dataset, often using the model's own predictions to generate new training examples.
-
-**AI Engineer:** A professional who specializes in designing, building, and implementing AI models and systems, often involving tasks such as data preprocessing, model training, and deployment.
-
-**Model Distillation:** A process of transferring knowledge from a large, complex model to a smaller, more efficient model, preserving performance while reducing computational demands.
-
-**Epoch:** One complete pass through the entire training dataset by a machine learning algorithm, used as a measure of the extent of training.
-
-**Checkpoint:** A saved state of a model during training, allowing recovery or resumption of training from that point, and facilitating model evaluation at various stages of training.
-
-**Quantization:** The process of reducing the precision of the weights and activations of a model to lower bit widths, which decreases model size and speeds up inference, with minimal impact on accuracy.
-
-**Batch:** A subset of the training dataset that is used in one iteration of model training, allowing for efficient and parallelizable processing.
-
-**Learning Rate:** A hyperparameter that determines the step size at each iteration while moving toward a minimum of the loss function, influencing how quickly a model learns.
-
-**Regularization:** Techniques used to prevent overfitting by imposing constraints on the quantity and type of information your model can store.
-
-**Validation Set:** A subset of the dataset, separate from the training set, used to evaluate the model's performance and tune hyperparameters without using the test set.
-
-**Momentum:** A technique that helps accelerate the gradient descent algorithm by navigating along the relevant direction and dampening oscillations, improving convergence speed.
-
-**Dropout:** A regularization method where randomly selected neurons are ignored during training, preventing them from co-adapting too much and reducing the risk of overfitting.
-
-**Embedding Layer:** A layer in a neural network that transforms large sparse vectors into a lower-dimensional space where similar values are close to each other, often used for processing text or categorical data.
