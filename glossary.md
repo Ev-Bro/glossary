@@ -1,3 +1,5 @@
+# AI Glossary
+
 ## Field of AI / Major Types
 
 **Artificial General Intelligence (AGI):** The hypothetical intelligence of a machine that has the capacity to understand or learn any intellectual task that a human being can.
