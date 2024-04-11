@@ -1,6 +1,6 @@
 # AI Glossary
 
-## Field of AI / Major Types
+## Core Branches of AI
 
 **Artificial General Intelligence (AGI):** The hypothetical intelligence of a machine that has the capacity to understand or learn any intellectual task that a human being can.
 
@@ -23,6 +23,8 @@
 **Recommender Systems:** A subclass of information filtering systems that seek to predict the "rating" or "preference" a user would give to an item.
 
 **Robotics:** The branch involving the design, construction, operation, and application of robots, integrating systems for control, sensory feedback, and information processing.
+
+**Rules-Based AI:** An approach that uses predefined rules for decision-making or problem-solving, relying on logical reasoning.
 
 ## Neural Networks & Models
 
@@ -74,8 +76,6 @@
 
 **Node:** A node is a computational point within a neural network that processes inputs and forwards the output to subsequent layers.
 
-**One Shot:** A learning approach where a model is trained on a single example or instance to make predictions or decisions.
-
 **Open Weights:** The practice of sharing the weights of pre-trained models with the public or research community to facilitate research, transparency, and application development without the need for extensive computational resources.
 
 **Parameters**: The adjustable elements in a model that the learning algorithm optimizes to fit the data.
@@ -110,6 +110,8 @@
 
 **Corpus:** a large and structured set of texts or dataset used for training and evaluating natural language processing models, providing the essential data for learning patterns, structures, and nuances of language.
 
+**Dataset**: A collection of data often structured in a tabular format, comprising variables (columns) and observations (rows), used for analysis, training models, or testing in the field of artificial intelligence and machine learning.
+
 **Federated Learning:** A machine learning approach where the model is trained across multiple decentralized devices or servers holding local data samples, without exchanging them.
 
 **Fine Tuning**: The process of adjusting a pre-trained model to improve its performance on a specific task.
@@ -127,6 +129,8 @@
 **Many Shot:** A learning strategy where a model is trained with a large number of examples to improve its accuracy and generalization capabilities.
 
 **Momentum:** A technique that helps accelerate the gradient descent algorithm by navigating along the relevant direction and dampening oscillations, improving convergence speed.
+
+**One Shot:** A learning approach where a model is trained on a single example or instance to make predictions or decisions.
 
 **Overfitting:** A modeling error in machine learning where a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data.
 
@@ -210,7 +214,7 @@
 
 **TPU (Tensor Processing Unit)**: A type of microprocessor developed by Google specifically for accelerating machine learning workloads.
 
-## Misc
+## Misc AI
 
 **Alignment:** Alignment in AI refers to ensuring AI systems' actions and outputs align with human values and intentions to promote welfare and avoid harm.
 
@@ -223,8 +227,6 @@
 **Chatbot:** A software application that simulates human conversation using natural language processing to interact with users.
 
 **Context Window:** The range or extent of surrounding information considered by an algorithm or model to understand or process a specific piece of data.
-
-**Dataset**: A collection of data often structured in a tabular format, comprising variables (columns) and observations (rows), used for analysis, training models, or testing in the field of artificial intelligence and machine learning.
 
 **Embedding**: The representation of data, like words or features, in a high-dimensional space, enabling similarity measurements.
 
